@@ -26,3 +26,4 @@ The component is pretty simple. What we would like to see is your approach and c
  - Styling doesn't have to be the same, use your own imagination if you like
  - Think about media queries to create the responsive effect between desktop/mobile
  - Make the button navigate to a different page
+ - Stick with standard frameworks (i.e. plain javascript and html)
