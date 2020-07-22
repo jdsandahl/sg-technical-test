@@ -1,4 +1,5 @@
 **Introduction**
+
 This project is a bare bones Node.js web application serving up basic index.html and linked styles.css file. The objective is to:
 
  - Clone the application to your development PC
@@ -6,12 +7,17 @@ This project is a bare bones Node.js web application serving up basic index.html
  - Using the IDE of your choice (we use VS Code), make changes to the html/css files in order to create the designed component
 
 **Cloning**
+
 git url:		 https://github.com/cstanleyhns/emptynode.git
 
 **Running**
-Before running the application locally, run `npm install` from the terminal to install any dependent packages
+
+You may need to install node if you don't have it: https://nodejs.org/en/download/ 
+
+Before running the application locally, run `npm install` from the terminal to install any dependent packages. To run the application use `node app.js` from the terminal. 
 
 **Pointers**
+
 The component is pretty simple. What we would like to see is your approach and clean easy to read coding.
 
  - Make regular commits along the way to show working 
