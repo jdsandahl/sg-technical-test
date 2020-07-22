@@ -14,7 +14,7 @@ git url:		 https://github.com/cstanleyhns/emptynode.git
 
 You may need to install node if you don't have it: https://nodejs.org/en/download/ 
 
-Before running the application locally, run `npm install` from the terminal to install any dependent packages. To run the application use `node app.js` from the terminal. 
+Before running the application locally, run `npm install` from the terminal to install any dependent packages. To run the application use `node app.js` from the terminal. In your browser, open http://localhost:3000
 
 **Pointers**
 
@@ -23,6 +23,6 @@ The component is pretty simple. What we would like to see is your approach and c
  - Make regular commits along the way to show working 
  - Use the README.md markdown file to document your approach
  - The stylesheet is already added to the project but add your own javascript file to the project 
- - Styling doent have to the same, use your own imagination if you like
+ - Styling doesn't have to be the same, use your own imagination if you like
  - Think about media queries to create the responsive effect between desktop/mobile
  - Make the button navigate to a different page
