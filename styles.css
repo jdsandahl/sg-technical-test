@@ -1,3 +1,26 @@
-.basictext {
-    font-size: 60px;
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    grid-template-rows: 1fr;  
+    gap: 100px;
+}
+
+.text-wrapper {
+    height: 100%;    
+    padding: 15px; 
+}
+
+.image-wrapper {
+    height: 100%;
+    padding: 15px;
+}
+
+.hero-image {
+    margin: 0;
+    max-width: 100%;
+    max-height: 380px;
+    border-radius: 8px;
 }
