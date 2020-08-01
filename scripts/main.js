@@ -1,5 +1,6 @@
 const mainContainer = document.querySelector(".main-container");
 
+//Create elements for the text-section of the component
 const textWrapper = document.createElement("div");
 textWrapper.classList.add("text-wrapper");
 
@@ -22,5 +23,17 @@ textWrapper.appendChild(heading);
 textWrapper.appendChild(text);
 textWrapper.appendChild(button);
 
-//make textWrapper the first child of the mainContainer 
+//Create elements for the image-section of the component
+const imageWrapper = document.createElement("div");
+imageWrapper.classList.add("image-wrapper");
+
+const image = document.createElement("img");
+image.classList.add("hero-image");
+image.src = "https://sguk-uks-mkt-web-prod-02-cdn-endpoint-assets.azureedge.net/public/images/bitmap/large/157417321.jpg?version=20200720.1";
+
+imageWrapper.appendChild(image);
+
+/* Render textWrapper as the first child of the mainContainer 
+   and have the image section rendered directly after it */
 mainContainer.insertBefore(textWrapper, mainContainer.childNodes[0]);
+textWrapper.insertAdjacentElement("afterend", imageWrapper);
