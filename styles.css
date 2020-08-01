@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@500&display=swap');
+
 .main-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -9,8 +11,16 @@
 }
 
 .text-wrapper {
-    height: 100%;    
+    height: 100%;   
     padding: 15px; 
+}
+
+.heading {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .image-wrapper {
