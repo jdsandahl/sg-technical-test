@@ -23,6 +23,22 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.btn { 
+    padding: 10px 20px;
+
+    background-color: #fff;
+    border: 2px solid #00b5e5;
+    border-radius: 8px;
+    transition: all ease 0.3s;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 2px solid black;
+    text-decoration: underline;
+}
+
 .image-wrapper {
     height: 100%;
     padding: 15px;
