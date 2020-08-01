@@ -12,7 +12,9 @@
 
 .text-wrapper {
     height: 100%;   
-    padding: 15px; 
+    padding: 15px;
+    
+    font-size: 1rem; 
 }
 
 .heading {
@@ -23,7 +25,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.btn { 
+.btn {
+    font-size: 0.8rem; 
     padding: 10px 20px;
 
     background-color: #fff;
@@ -49,4 +52,45 @@
     max-width: 100%;
     max-height: 380px;
     border-radius: 8px;
+}
+
+@media screen and (max-width: 1200px){
+    .main-container{
+        width: 99%;
+    }
+
+    .text-wrapper{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 1077px){
+    .text-wrapper{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .text-wrapper{
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .main-container{
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .text-wrapper, .image-wrapper {
+        max-width: 655px;
+    }
+
+    .text-wrapper {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
 }
